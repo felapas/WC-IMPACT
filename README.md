@@ -12,7 +12,7 @@ The main analysis uses a player–club-match panel for the 2022/23 season, a qua
 
 The adjusted acute association for games 1–4 after the World Cup is **0.0233 in minutes share** (95% CI −0.0260 to 0.0726; p = 0.355), equivalent to approximately **+2.10 minutes per club match**. The study therefore does not detect a robust generalized acute decline in club utilization. Later positive estimates are treated cautiously because they are sensitive to trend specifications and falsification evidence.
 
-The current submission PDF is available at [`output/pdf/FAME2026.pdf`](output/pdf/FAME2026.pdf). The LaTeX source is in [`reports/submission_fame2026/`](reports/submission_fame2026/).
+The current submission PDF is available at [`output/pdf/FAME2026.pdf`](output/pdf/FAME2026.pdf). 
 
 ## Repository structure
 
