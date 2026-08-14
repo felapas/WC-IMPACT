@@ -1,0 +1,8 @@
+step,total,treated,controls,share_of_initial
+01_baseline_club_assigned,2831,414,2417,1.0
+02_outfield,2503,373,2130,0.884139879901095
+03_minimum_pre_games,2503,373,2130,0.884139879901095
+04_minimum_pre_minutes,1411,314,1097,0.49841045566937475
+05_baseline_only_eligible,1411,314,1097,0.49841045566937475
+06_qualified_nation_risk_set,1015,314,701,0.35853055457435534
+07_same_nation_any_support,988,289,699,0.348993288590604

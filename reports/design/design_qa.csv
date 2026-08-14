@@ -1,0 +1,26 @@
+check,observed,expected,passed
+cohort_unique_player,2831,2831,True
+grid_unique_player_game,69845,69845,True
+minimum_eight_pre_games,2831,2831,True
+exactly_configured_post_games,2831,2831,True
+eligibility_uses_no_forbidden_post_columns,0,0,True
+treated_have_official_identity,414,414,True
+treated_official_teams_are_qualified,414,414,True
+valuations_not_after_cutoff,2831,2831,True
+baseline_eligible_players,1411,>=1000,True
+qualified_risk_set_treated,314,>=200,True
+qualified_risk_set_controls,701,>=300,True
+post_treatment_injuries_retained,169,>0 informational,True
+post_treatment_transfers_retained,66,>0 informational,True
+recorded_exit_rows_zero_minutes,2778,2778,True
+npxg_not_above_xg,69845,69845,True
+eligibility_table_unique_player,2831,2831,True
+power_uses_pre_only,21,21,True
+power_primary_outcome_present,5,>0,True
+power_primary_sesoi_present,1,1,True
+lineup_source_inconsistencies_flagged,59,informational,True
+performance_source_inconsistencies_flagged,26,informational,True
+baseline_assignment_reviews,64,informational,True
+national_eligibility_reviews,31,informational,True
+baseline_manual_overrides_applied,4,4,True
+national_manual_overrides_applied,8,8,True

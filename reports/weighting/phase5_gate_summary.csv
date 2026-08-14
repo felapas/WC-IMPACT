@@ -1,0 +1,8 @@
+gate,passed,role
+overlap_candidate_passes_all_weight_gates,True,required
+treated_support_reaches_target_90pct,True,target
+primary_pretrend_pointwise_equivalence,False,required_for_strong_causal_language
+primary_pretrend_joint_p_above_0_05,True,diagnostic_not_proof
+entropy_balancing_stable_for_primary,False,sensitivity_only
+weighting_ready_for_models,True,decision
+strong_causal_language_ready,False,decision

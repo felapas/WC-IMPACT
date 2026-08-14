@@ -1,0 +1,552 @@
+file,unit_of_observation,column,dtype,description
+roster_spells.csv,jogador + clube + vínculo,transfermarkt_player_id,int64,Identificador do jogador no Transfermarkt.
+roster_spells.csv,jogador + clube + vínculo,club_id,int64,Identificador do clube no Transfermarkt.
+roster_spells.csv,jogador + clube + vínculo,player_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,date_of_birth,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,broad_position,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,sub_position,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,country_of_citizenship,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,foot,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,height_in_cm,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,is_goalkeeper,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,first_observed,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,last_observed,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,spell_start,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,spell_end,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,start_source,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,end_source,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+roster_spells.csv,jogador + clube + vínculo,january_transfer,int64,Indicador de transferência em janeiro de 2023.
+roster_spells.csv,jogador + clube + vínculo,spell_valid,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,transfermarkt_player_id,int64,Identificador do jogador no Transfermarkt.
+analytic_player_match.csv,jogador + partida,club_id,int64,Identificador do clube no Transfermarkt.
+analytic_player_match.csv,jogador + partida,player_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,date_of_birth,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,broad_position,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,sub_position,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,country_of_citizenship,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,foot,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,height_in_cm,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,is_goalkeeper,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,first_observed,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,last_observed,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,spell_start,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,spell_end,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,start_source,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,end_source,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,january_transfer,int8,Indicador de transferência em janeiro de 2023.
+analytic_player_match.csv,jogador + partida,spell_valid,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,game_id,int64,Identificador da partida no Transfermarkt.
+analytic_player_match.csv,jogador + partida,match_date,datetime64[us],Data da partida.
+analytic_player_match.csv,jogador + partida,opponent_club_id,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,opponent_club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,is_home,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,club_goals,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,opponent_goals,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,round,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,club_table_position,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,opponent_table_position,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,club_formation,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,days_since_club_game,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,relative_club_match,int64,Posição da partida na janela: -8 a -1 ou 1 a 8.
+analytic_player_match.csv,jogador + partida,window,str,"Janela analítica: pre, post_acute ou post_consolidated."
+analytic_player_match.csv,jogador + partida,lineup_position,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,started,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,team_captain,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,minutes_played,float64,Minutos registrados na fonte; ausências conhecidas não são imputadas.
+analytic_player_match.csv,jogador + partida,goals,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,assists,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,yellow_cards,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,red_cards,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,played,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,in_match_squad,int8,Indicador de presença na súmula da partida.
+analytic_player_match.csv,jogador + partida,roster_assignment_conflict,int8,Indica mais de um vínculo de clube elegível antes da regra de desempate.
+analytic_player_match.csv,jogador + partida,observed_club_membership,int8,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,roster_assignment_rule,str,Regra usada para atribuir o jogador a um único clube na partida.
+analytic_player_match.csv,jogador + partida,lineup_source_inconsistency,int8,Exceção documentada: titular sem participação ou minutos na fonte.
+analytic_player_match.csv,jogador + partida,lineup_source_inconsistency_reason,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,possible_minutes,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,minutes_share,float64,Minutos jogados divididos por 90.
+analytic_player_match.csv,jogador + partida,active_roster,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,squad_status,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,days_since_player_appearance,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,injured_on_match_date,int64,Indicador de lesão ativa na data da partida.
+analytic_player_match.csv,jogador + partida,injury_reason_on_match_date,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,shots,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,understat_goals,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,shots_on_target,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,penalties,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,xg,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,npxg,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,xa,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,key_passes,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,understat_linked,int8,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,performance_source_inconsistency,int8,Exceção documentada: produção Understat sem participação na fonte de escalação.
+analytic_player_match.csv,jogador + partida,npxg_xa,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,shots_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_match.csv,jogador + partida,xg_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_match.csv,jogador + partida,npxg_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_match.csv,jogador + partida,xa_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_match.csv,jogador + partida,key_passes_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_match.csv,jogador + partida,npxg_xa_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_match.csv,jogador + partida,fifa_squad_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,country_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,statsbomb_player_id,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,sb_link_status,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,club_at_world_cup,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,treated_world_cup,int8,Indicador de convocação para a Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_statsbomb_player_id,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_started,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_played,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_minutes_played,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_extra_time_game,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_extra_time_minutes,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_match_duration_minutes,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_actions,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_under_pressure_actions,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_shots,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_goals,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_xg,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_npxg,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_passes,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_completed_passes,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_xa,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_progressive_passes_proxy,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_carries,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_progressive_carries_proxy,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_pressures,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_ball_recoveries,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_dribbles,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_completed_dribbles,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_duels,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_duels_won,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_squad_matchdays,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_player_name_statsbomb,str,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_team_name,str,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_max_stage_order,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_xg_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_npxg_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_xa_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_shots_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_passes_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_progressive_passes_proxy_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_progressive_carries_proxy_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,wc_pressures_p90,float64,Métrica agregada na Copa do Mundo de 2022.
+analytic_player_match.csv,jogador + partida,valuation_date,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,market_value_in_eur,float64,"Valor de mercado mais recente, em euros, anterior ao corte."
+analytic_player_match.csv,jogador + partida,market_value_log,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,pre_injury_events,int64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,pre_injury_days,int64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,long_injury_crossing,int64,Indicador de lesão longa atravessando o período da Copa.
+analytic_player_match.csv,jogador + partida,age_at_world_cup,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,pre_club_ppg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,pre_club_gd_per_game,float64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,pre_club_matches,int64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,pre_opponent_ppg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,pre_opponent_gd_per_game,float64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,pre_opponent_matches,int64,Covariável ou outcome agregado na janela pré-Copa.
+analytic_player_match.csv,jogador + partida,position_group,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_match.csv,jogador + partida,minutes_share_z,float64,Métrica padronizada por liga e grupo posicional.
+analytic_player_match.csv,jogador + partida,minutes_share_robust_z,float64,Métrica padronizada por liga e grupo posicional.
+analytic_player_match.csv,jogador + partida,npxg_xa_p90_z,float64,Métrica padronizada por liga e grupo posicional.
+analytic_player_match.csv,jogador + partida,npxg_xa_p90_robust_z,float64,Métrica padronizada por liga e grupo posicional.
+analytic_player_windows.csv,jogador + clube + janela,transfermarkt_player_id,int64,Identificador do jogador no Transfermarkt.
+analytic_player_windows.csv,jogador + clube + janela,player_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,club_id,int64,Identificador do clube no Transfermarkt.
+analytic_player_windows.csv,jogador + clube + janela,club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,position_group,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,window,str,"Janela analítica: pre, post_acute ou post_consolidated."
+analytic_player_windows.csv,jogador + clube + janela,club_games,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,in_match_squad,int64,Indicador de presença na súmula da partida.
+analytic_player_windows.csv,jogador + clube + janela,played,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,started,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,minutes_played,float64,Minutos registrados na fonte; ausências conhecidas não são imputadas.
+analytic_player_windows.csv,jogador + clube + janela,possible_minutes,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,goals,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,assists,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,shots,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,xg,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,npxg,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,xa,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,key_passes,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,npxg_xa,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,injured_on_match_date,int64,Indicador de lesão ativa na data da partida.
+analytic_player_windows.csv,jogador + clube + janela,minutes_share,float64,Minutos jogados divididos por 90.
+analytic_player_windows.csv,jogador + clube + janela,start_rate,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,squad_rate,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,played_rate,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analytic_player_windows.csv,jogador + clube + janela,goals_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_windows.csv,jogador + clube + janela,assists_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_windows.csv,jogador + clube + janela,shots_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_windows.csv,jogador + clube + janela,xg_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_windows.csv,jogador + clube + janela,npxg_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_windows.csv,jogador + clube + janela,xa_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_windows.csv,jogador + clube + janela,key_passes_p90,float64,Métrica normalizada por 90 minutos.
+analytic_player_windows.csv,jogador + clube + janela,npxg_xa_p90,float64,Métrica normalizada por 90 minutos.
+analysis_sample_main.csv,jogador + clube,transfermarkt_player_id,int64,Identificador do jogador no Transfermarkt.
+analysis_sample_main.csv,jogador + clube,club_id,int64,Identificador do clube no Transfermarkt.
+analysis_sample_main.csv,jogador + clube,player_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,position_group,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,date_of_birth,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,age_at_world_cup,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,country_of_citizenship,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,foot,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,height_in_cm,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,treated_world_cup,int8,Indicador de convocação para a Copa do Mundo de 2022.
+analysis_sample_main.csv,jogador + clube,fifa_squad_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,country_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,statsbomb_player_id,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,market_value_in_eur,float64,"Valor de mercado mais recente, em euros, anterior ao corte."
+analysis_sample_main.csv,jogador + clube,market_value_log,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,valuation_date,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,pre_injury_events,int64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,pre_injury_days,int64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,long_injury_crossing,int64,Indicador de lesão longa atravessando o período da Copa.
+analysis_sample_main.csv,jogador + clube,january_transfer,int8,Indicador de transferência em janeiro de 2023.
+analysis_sample_main.csv,jogador + clube,pre_club_ppg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,pre_club_gd_per_game,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_assists,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_assists,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_assists,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_club_games,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_club_games,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_club_games,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_goals,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_goals,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_goals,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_in_match_squad,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_in_match_squad,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_in_match_squad,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_injured_on_match_date,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_injured_on_match_date,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_injured_on_match_date,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_minutes_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_minutes_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_minutes_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_minutes_share,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_minutes_share,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_minutes_share,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_npxg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_npxg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_npxg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_npxg_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_npxg_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_npxg_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_npxg_xa_p90,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_npxg_xa_p90,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_npxg_xa_p90,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_played_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_played_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_played_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_squad_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_squad_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_squad_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_start_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_start_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_start_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_started,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_started,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_started,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,post_acute_xg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_main.csv,jogador + clube,post_consolidated_xg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_main.csv,jogador + clube,pre_xg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_main.csv,jogador + clube,same_club_pre_post,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,outfield,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,baseline_minutes_ok,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,coverage_ok,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_main.csv,jogador + clube,eligible_availability,bool,Elegibilidade para a amostra de disponibilidade.
+analysis_sample_main.csv,jogador + clube,eligible_main,bool,Elegibilidade para a amostra analítica principal.
+analysis_sample_main.csv,jogador + clube,exclusion_reasons,str,Motivos de exclusão separados por barra vertical.
+analysis_sample_availability.csv,jogador + clube,transfermarkt_player_id,int64,Identificador do jogador no Transfermarkt.
+analysis_sample_availability.csv,jogador + clube,club_id,int64,Identificador do clube no Transfermarkt.
+analysis_sample_availability.csv,jogador + clube,player_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,position_group,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,date_of_birth,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,age_at_world_cup,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,country_of_citizenship,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,foot,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,height_in_cm,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,treated_world_cup,int8,Indicador de convocação para a Copa do Mundo de 2022.
+analysis_sample_availability.csv,jogador + clube,fifa_squad_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,country_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,statsbomb_player_id,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,market_value_in_eur,float64,"Valor de mercado mais recente, em euros, anterior ao corte."
+analysis_sample_availability.csv,jogador + clube,market_value_log,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,valuation_date,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,pre_injury_events,int64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_injury_days,int64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,long_injury_crossing,int64,Indicador de lesão longa atravessando o período da Copa.
+analysis_sample_availability.csv,jogador + clube,january_transfer,int8,Indicador de transferência em janeiro de 2023.
+analysis_sample_availability.csv,jogador + clube,pre_club_ppg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_club_gd_per_game,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_assists,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_assists,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_assists,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_club_games,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_club_games,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_club_games,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_goals,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_goals,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_goals,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_in_match_squad,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_in_match_squad,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_in_match_squad,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_injured_on_match_date,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_injured_on_match_date,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_injured_on_match_date,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_minutes_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_minutes_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_minutes_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_minutes_share,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_minutes_share,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_minutes_share,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_npxg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_npxg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_npxg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_npxg_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_npxg_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_npxg_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_npxg_xa_p90,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_npxg_xa_p90,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_npxg_xa_p90,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_played_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_played_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_played_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_squad_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_squad_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_squad_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_start_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_start_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_start_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_started,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_started,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_started,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,post_acute_xg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+analysis_sample_availability.csv,jogador + clube,post_consolidated_xg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+analysis_sample_availability.csv,jogador + clube,pre_xg,float64,Covariável ou outcome agregado na janela pré-Copa.
+analysis_sample_availability.csv,jogador + clube,same_club_pre_post,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,outfield,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,baseline_minutes_ok,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,coverage_ok,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+analysis_sample_availability.csv,jogador + clube,eligible_availability,bool,Elegibilidade para a amostra de disponibilidade.
+analysis_sample_availability.csv,jogador + clube,eligible_main,bool,Elegibilidade para a amostra analítica principal.
+analysis_sample_availability.csv,jogador + clube,exclusion_reasons,str,Motivos de exclusão separados por barra vertical.
+treated_control_candidates.csv,jogador + clube,transfermarkt_player_id,int64,Identificador do jogador no Transfermarkt.
+treated_control_candidates.csv,jogador + clube,club_id,int64,Identificador do clube no Transfermarkt.
+treated_control_candidates.csv,jogador + clube,player_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,position_group,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,date_of_birth,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,age_at_world_cup,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,country_of_citizenship,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,foot,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,height_in_cm,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,treated_world_cup,int8,Indicador de convocação para a Copa do Mundo de 2022.
+treated_control_candidates.csv,jogador + clube,fifa_squad_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,country_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,statsbomb_player_id,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,market_value_in_eur,float64,"Valor de mercado mais recente, em euros, anterior ao corte."
+treated_control_candidates.csv,jogador + clube,market_value_log,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,valuation_date,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,pre_injury_events,int64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,pre_injury_days,int64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,long_injury_crossing,int64,Indicador de lesão longa atravessando o período da Copa.
+treated_control_candidates.csv,jogador + clube,january_transfer,int8,Indicador de transferência em janeiro de 2023.
+treated_control_candidates.csv,jogador + clube,pre_club_ppg,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,pre_club_gd_per_game,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_assists,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_assists,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_assists,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_club_games,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_club_games,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_club_games,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_goals,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_goals,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_goals,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_in_match_squad,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_in_match_squad,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_in_match_squad,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_injured_on_match_date,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_injured_on_match_date,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_injured_on_match_date,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_minutes_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_minutes_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_minutes_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_minutes_share,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_minutes_share,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_minutes_share,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_npxg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_npxg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_npxg,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_npxg_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_npxg_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_npxg_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_npxg_xa_p90,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_npxg_xa_p90,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_npxg_xa_p90,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_played_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_played_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_played_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_squad_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_squad_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_squad_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_start_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_start_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_start_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_started,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_started,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_started,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,post_acute_xg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+treated_control_candidates.csv,jogador + clube,post_consolidated_xg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+treated_control_candidates.csv,jogador + clube,pre_xg,float64,Covariável ou outcome agregado na janela pré-Copa.
+treated_control_candidates.csv,jogador + clube,same_club_pre_post,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,outfield,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,baseline_minutes_ok,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,coverage_ok,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+treated_control_candidates.csv,jogador + clube,eligible_availability,bool,Elegibilidade para a amostra de disponibilidade.
+treated_control_candidates.csv,jogador + clube,eligible_main,bool,Elegibilidade para a amostra analítica principal.
+treated_control_candidates.csv,jogador + clube,exclusion_reasons,str,Motivos de exclusão separados por barra vertical.
+matching_assignments.csv,tratado + controle,treated_player_id,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,treated_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,control_player_id,object,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,control_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,position_group,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,treated_club_id,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,control_club_id,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,same_club,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,distance,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,control_rank,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,treated_weight,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,control_weight,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_assignments.csv,tratado + controle,match_status,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_balance.csv,covariável,feature,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_balance.csv,covariável,treated_mean_before,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_balance.csv,covariável,control_mean_before,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_balance.csv,covariável,smd_before,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_balance.csv,covariável,treated_mean_after,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_balance.csv,covariável,control_mean_after,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+matching_balance.csv,covariável,smd_after,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,transfermarkt_player_id,int64,Identificador do jogador no Transfermarkt.
+sample_exclusions.csv,jogador + clube,club_id,float64,Identificador do clube no Transfermarkt.
+sample_exclusions.csv,jogador + clube,player_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,club_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,competition_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,league_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,position_group,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,date_of_birth,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,age_at_world_cup,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,country_of_citizenship,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,foot,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,height_in_cm,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,treated_world_cup,int64,Indicador de convocação para a Copa do Mundo de 2022.
+sample_exclusions.csv,jogador + clube,fifa_squad_id,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,country_name,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,statsbomb_player_id,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,market_value_in_eur,float64,"Valor de mercado mais recente, em euros, anterior ao corte."
+sample_exclusions.csv,jogador + clube,market_value_log,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,valuation_date,datetime64[us],Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,pre_injury_events,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,pre_injury_days,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,long_injury_crossing,float64,Indicador de lesão longa atravessando o período da Copa.
+sample_exclusions.csv,jogador + clube,january_transfer,float64,Indicador de transferência em janeiro de 2023.
+sample_exclusions.csv,jogador + clube,pre_club_ppg,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,pre_club_gd_per_game,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_assists,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_assists,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_assists,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_club_games,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_club_games,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_club_games,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_goals,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_goals,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_goals,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_in_match_squad,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_in_match_squad,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_in_match_squad,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_injured_on_match_date,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_injured_on_match_date,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_injured_on_match_date,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_minutes_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_minutes_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_minutes_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_minutes_share,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_minutes_share,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_minutes_share,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_npxg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_npxg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_npxg,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_npxg_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_npxg_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_npxg_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_npxg_xa_p90,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_npxg_xa_p90,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_npxg_xa_p90,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_played,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_played,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_played,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_played_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_played_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_played_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_squad_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_squad_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_squad_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_start_rate,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_start_rate,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_start_rate,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_started,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_started,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_started,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_xa,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_xa,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_xa,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,post_acute_xg,float64,Outcome agregado nos quatro primeiros jogos pós-Copa.
+sample_exclusions.csv,jogador + clube,post_consolidated_xg,float64,Outcome agregado do quinto ao oitavo jogo pós-Copa.
+sample_exclusions.csv,jogador + clube,pre_xg,float64,Covariável ou outcome agregado na janela pré-Copa.
+sample_exclusions.csv,jogador + clube,same_club_pre_post,object,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,outfield,object,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,baseline_minutes_ok,object,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,coverage_ok,object,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+sample_exclusions.csv,jogador + clube,eligible_availability,object,Elegibilidade para a amostra de disponibilidade.
+sample_exclusions.csv,jogador + clube,eligible_main,bool,Elegibilidade para a amostra analítica principal.
+sample_exclusions.csv,jogador + clube,exclusion_reasons,str,Motivos de exclusão separados por barra vertical.
+injury_source_audit.csv,controle de auditoria,injury_check,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+injury_source_audit.csv,controle de auditoria,value,int64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+panel_qa_summary.csv,controle de qualidade,check,str,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+panel_qa_summary.csv,controle de qualidade,observed,float64,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+panel_qa_summary.csv,controle de qualidade,expected_or_threshold,object,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.
+panel_qa_summary.csv,controle de qualidade,passed,bool,Campo preservado ou derivado pelo pipeline; consulte o script para a regra exata.

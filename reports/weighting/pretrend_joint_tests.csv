@@ -1,0 +1,11 @@
+diagnostic_window,outcome,joint_start,joint_end,reference_match,wald_statistic,degrees_of_freedom,simulation_p_value,all_pointwise_equivalence_passed,max_abs_pretrend_sd,n_complete_players,uses_post_treatment_outcomes
+calibration_window,minutes_share,-8,-2,-1,2.351933812500408e-22,7,1.0,False,1.0000250952177015e-12,1015,0
+holdout_window,minutes_share,-14,-9,-8,2.3070899075739266,6,0.88674,False,0.10242880550263105,1015,0
+calibration_window,in_match_squad,-8,-2,-1,3.7276073434500447,7,0.8099,False,0.10067865880522013,1015,0
+holdout_window,in_match_squad,-14,-9,-8,3.380924952974729,6,0.75778,False,0.11403541976700009,1015,0
+calibration_window,played,-8,-2,-1,0.9962819024072773,7,0.99471,False,0.0690311851452705,1015,0
+holdout_window,played,-14,-9,-8,4.469882055674975,6,0.61282,False,0.08455452581448346,1015,0
+calibration_window,started,-8,-2,-1,1.5409364784233481,7,0.98097,False,0.06300770071214346,1015,0
+holdout_window,started,-14,-9,-8,2.6257931882888457,6,0.85405,False,0.08162108417874989,1015,0
+calibration_window,npxg_xa_per_club_match,-8,-2,-1,0.001251273485135877,7,1.0,False,0.001531264066443411,977,0
+holdout_window,npxg_xa_per_club_match,-14,-9,-8,7.090014124127069,6,0.31412,False,0.21869043372372376,977,0

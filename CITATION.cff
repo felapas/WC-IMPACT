@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the software release and the associated FAME 2026 manuscript."
+title: "WC-IMPACT: Qatar 2022 and club utilization in Europe's Big Five leagues"
+type: software
+authors:
+  - family-names: "Damasceno"
+    given-names: "Felipe Silva Fraga"
+  - family-names: "Onofre"
+    given-names: "Caio Henrique de Miranda"
+version: "fame2026-v1"
+date-released: 2026-08-14
+license: MIT
+keywords:
+  - football analytics
+  - soccer
+  - FIFA World Cup
+  - propensity score weighting
+  - event study
+  - sports analytics

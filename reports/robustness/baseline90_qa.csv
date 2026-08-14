@@ -1,0 +1,23 @@
+check,observed,expected,passed
+output_path_does_not_replace_primary_weights,data\processed\analysis_weights_baseline90.csv,!=data\processed\analysis_weights.csv,True
+risk_set_unique_player,1187,1187,True
+treatment_binary_and_complete,"[0.0, 1.0]","[0.0, 1.0]",True
+both_treatment_groups_present,2,2,True
+all_strata_have_both_groups,15,15,True
+weights_unique_player,1187,1187,True
+weight_ids_equal_risk_ids,0,0,True
+one_selected_candidate,1,1,True
+selected_propensity_model_converged,1,1,True
+selected_calibration_converged,1,1,True
+finite_positive_analysis_weights,1187,1187,True
+propensity_strictly_between_zero_and_one,1187,1187,True
+estimation_ids_equal_weight_ids,0,0,True
+sixteen_rows_per_player,16--16,16--16,True
+unique_player_relative_match,0,0,True
+model_uses_all_weighted_players,1187,1187,True
+hdfe_converged,5.689893001203927e-16,<1e-8,True
+finite_model_results,6,6,True
+pretrend_uses_pre_only,65,65,True
+primary_holdout_pretrend_present,1,1,True
+source_panel_contains_all_risk_players,0,0,True
+primary_weights_hash_unchanged,52ea91442eccc05238b0d7dfc12734d7e7bef25602b92718ed7269c4817097c1,52ea91442eccc05238b0d7dfc12734d7e7bef25602b92718ed7269c4817097c1,True

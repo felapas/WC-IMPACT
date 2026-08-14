@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="450" role="img">
+<title>Pré-tendências ponderadas de minutes share</title>
+<desc>Diferenças em diferenças pré-Copa, padronizadas, com intervalos de 95% e margem de equivalência de 0,10 desvio-padrão.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<rect x="65" y="208.9" width="825" height="132.2" fill="#dbeafe" opacity="0.55"/>
+<line x1="65" y1="275.0" x2="890" y2="275.0" stroke="#334155"/>
+<line x1="65.0" y1="378.7" x2="65.0" y2="56.8" stroke="#2563eb" stroke-width="2"/>
+<circle cx="65.0" cy="217.8" r="4" fill="#2563eb"><title>Jogo -14: 0.087 DP</title></circle>
+<text x="57.0" y="420" font-size="11" fill="#334155">-14</text>
+<line x1="230.0" y1="358.8" x2="230.0" y2="94.0" stroke="#2563eb" stroke-width="2"/>
+<circle cx="230.0" cy="226.4" r="4" fill="#2563eb"><title>Jogo -13: 0.074 DP</title></circle>
+<text x="222.0" y="420" font-size="11" fill="#334155">-13</text>
+<line x1="395.0" y1="368.6" x2="395.0" y2="114.2" stroke="#2563eb" stroke-width="2"/>
+<circle cx="395.0" cy="241.4" r="4" fill="#2563eb"><title>Jogo -12: 0.051 DP</title></circle>
+<text x="387.0" y="420" font-size="11" fill="#334155">-12</text>
+<line x1="560.0" y1="379.5" x2="560.0" y2="113.9" stroke="#2563eb" stroke-width="2"/>
+<circle cx="560.0" cy="246.7" r="4" fill="#2563eb"><title>Jogo -11: 0.043 DP</title></circle>
+<text x="552.0" y="420" font-size="11" fill="#334155">-11</text>
+<line x1="725.0" y1="320.4" x2="725.0" y2="94.2" stroke="#2563eb" stroke-width="2"/>
+<circle cx="725.0" cy="207.3" r="4" fill="#2563eb"><title>Jogo -10: 0.102 DP</title></circle>
+<text x="717.0" y="420" font-size="11" fill="#334155">-10</text>
+<line x1="890.0" y1="371.9" x2="890.0" y2="156.5" stroke="#2563eb" stroke-width="2"/>
+<circle cx="890.0" cy="264.2" r="4" fill="#2563eb"><title>Jogo -9: 0.016 DP</title></circle>
+<text x="882.0" y="420" font-size="11" fill="#334155">-9</text>
+<polyline points="65.0,217.8 230.0,226.4 395.0,241.4 560.0,246.7 725.0,207.3 890.0,264.2" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+<text x="432.5" y="442" font-size="12" fill="#334155">Jogo relativo</text>
+<text x="8" y="212.5" font-size="12" fill="#334155">Efeito (DP)</text>
+</svg>

@@ -1,0 +1,16 @@
+check,observed,expected,passed
+weights_unique_player,1015,1015,True
+panel_players_match_weights,1015,1015,True
+analysis_weight_positive_finite,24968,24968,True
+primary_results_complete,12,12,True
+acute_holm_family_complete,6,6,True
+noninferiority_sensitivity_complete,6,6,True
+event_study_complete,90,90,True
+event_study_reference_omitted,0,0,True
+holdout_placebo_pre_only,-9,-9,True
+placebo_complete,6,6,True
+dr_att_complete,6,6,True
+ppml_complete,4,4,True
+ppml_converged,4,4,True
+finite_primary_estimates,12,12,True
+strong_language_respects_phase5_gate,0,0,True

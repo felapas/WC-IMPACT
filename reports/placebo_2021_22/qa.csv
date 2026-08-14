@@ -1,0 +1,10 @@
+check,observed,expected
+all_big5_clubs_have_16_window_games,True,True
+window_uses_2021_november_pause,True,True
+unique_player_club_game,True,True
+minutes_share_in_unit_interval,True,True
+both_treatment_groups_in_risk_set,True,True
+weighting_candidate_selected,True,True
+primary_models_converged,True,True
+placebo_results_are_not_world_cup_effects,True,True
+weighting_selection_gates_passed,True,True

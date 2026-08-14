@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-07-12",
+  "random_seed": 20220712,
+  "population": "phase5_weighted_qualified_risk_set",
+  "estimand": "ATO",
+  "treatment": "treated_world_cup",
+  "weight": "analysis_weight",
+  "confirmatory_outcomes": [
+    "minutes_share",
+    "in_match_squad",
+    "played",
+    "started",
+    "minutes_played",
+    "npxg_xa_per_club_match"
+  ],
+  "primary_outcome": "minutes_share",
+  "primary_coefficient": "treated_x_acute",
+  "estimation_window": {"pre": [-8, -1], "acute": [1, 4], "consolidated": [5, 8]},
+  "event_study": {
+    "event_times": [-8, -7, -6, -5, -4, -3, -2, 1, 2, 3, 4, 5, 6, 7, 8],
+    "reference": -1,
+    "simultaneous_band_draws": 2000
+  },
+  "placebo_holdout": {"baseline": [-14, -12], "pseudo_post": [-11, -9]},
+  "fixed_effects": {
+    "primary": ["player", "club_game"],
+    "external": ["player", "league_position_week"]
+  },
+  "external_controls": ["is_home", "days_since_club_game", "pre_opponent_ppg"],
+  "inference": {
+    "alpha": 0.05,
+    "primary_cluster": "player",
+    "double_cluster": ["player", "club_game"],
+    "score_multiplier_draws": 2000,
+    "holm_family": "six_acute_confirmatory_outcomes"
+  },
+  "sensitivities": [
+    "external_fixed_effects",
+    "differential_linear_trend",
+    "holdout_temporal_placebo",
+    "dr_att_did_different_estimand"
+  ],
+  "interpretation_gate": {
+    "phase5_strong_causal_language_required": true,
+    "fallback_language": "adjusted longitudinal association"
+  }
+}

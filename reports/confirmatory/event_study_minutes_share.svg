@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="470" role="img">
+<title>Event study de minutes share</title>
+<desc>Coeficientes em desvios-padrão com intervalos pontuais de 95% e bandas simultâneas.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<line x1="65" y1="253.2" x2="885" y2="253.2" stroke="#334155"/>
+<line x1="65.0" y1="398.0" x2="65.0" y2="162.2" stroke="#94a3b8" stroke-width="5"/>
+<line x1="65.0" y1="363.1" x2="65.0" y2="197.1" stroke="#2563eb" stroke-width="2"/>
+<circle cx="65.0" cy="280.1" r="4" fill="#2563eb"><title>-8: -0.073 DP</title></circle>
+<text x="58.0" y="440" font-size="11" fill="#334155">-8</text>
+<line x1="123.6" y1="368.6" x2="123.6" y2="155.8" stroke="#94a3b8" stroke-width="5"/>
+<line x1="123.6" y1="337.1" x2="123.6" y2="187.3" stroke="#2563eb" stroke-width="2"/>
+<circle cx="123.6" cy="262.2" r="4" fill="#2563eb"><title>-7: -0.024 DP</title></circle>
+<text x="116.6" y="440" font-size="11" fill="#334155">-7</text>
+<line x1="182.1" y1="385.4" x2="182.1" y2="169.8" stroke="#94a3b8" stroke-width="5"/>
+<line x1="182.1" y1="353.5" x2="182.1" y2="201.7" stroke="#2563eb" stroke-width="2"/>
+<circle cx="182.1" cy="277.6" r="4" fill="#2563eb"><title>-6: -0.066 DP</title></circle>
+<text x="175.1" y="440" font-size="11" fill="#334155">-6</text>
+<line x1="240.7" y1="379.9" x2="240.7" y2="155.5" stroke="#94a3b8" stroke-width="5"/>
+<line x1="240.7" y1="346.7" x2="240.7" y2="188.7" stroke="#2563eb" stroke-width="2"/>
+<circle cx="240.7" cy="267.7" r="4" fill="#2563eb"><title>-5: -0.039 DP</title></circle>
+<text x="233.7" y="440" font-size="11" fill="#334155">-5</text>
+<line x1="299.3" y1="395.8" x2="299.3" y2="177.2" stroke="#94a3b8" stroke-width="5"/>
+<line x1="299.3" y1="363.5" x2="299.3" y2="209.5" stroke="#2563eb" stroke-width="2"/>
+<circle cx="299.3" cy="286.5" r="4" fill="#2563eb"><title>-4: -0.091 DP</title></circle>
+<text x="292.3" y="440" font-size="11" fill="#334155">-4</text>
+<line x1="357.9" y1="383.5" x2="357.9" y2="173.9" stroke="#94a3b8" stroke-width="5"/>
+<line x1="357.9" y1="352.5" x2="357.9" y2="204.9" stroke="#2563eb" stroke-width="2"/>
+<circle cx="357.9" cy="278.7" r="4" fill="#2563eb"><title>-3: -0.069 DP</title></circle>
+<text x="350.9" y="440" font-size="11" fill="#334155">-3</text>
+<line x1="416.4" y1="354.8" x2="416.4" y2="147.6" stroke="#94a3b8" stroke-width="5"/>
+<line x1="416.4" y1="324.2" x2="416.4" y2="178.2" stroke="#2563eb" stroke-width="2"/>
+<circle cx="416.4" cy="251.2" r="4" fill="#2563eb"><title>-2: 0.006 DP</title></circle>
+<text x="409.4" y="440" font-size="11" fill="#334155">-2</text>
+<line x1="475.0" y1="402.5" x2="475.0" y2="207.0" stroke="#94a3b8" stroke-width="5"/>
+<line x1="475.0" y1="373.6" x2="475.0" y2="235.9" stroke="#2563eb" stroke-width="2"/>
+<circle cx="475.0" cy="304.7" r="4" fill="#2563eb"><title>1: -0.140 DP</title></circle>
+<text x="468.0" y="440" font-size="11" fill="#334155">1</text>
+<line x1="533.6" y1="358.3" x2="533.6" y2="161.4" stroke="#94a3b8" stroke-width="5"/>
+<line x1="533.6" y1="329.2" x2="533.6" y2="190.5" stroke="#2563eb" stroke-width="2"/>
+<circle cx="533.6" cy="259.8" r="4" fill="#2563eb"><title>2: -0.018 DP</title></circle>
+<text x="526.6" y="440" font-size="11" fill="#334155">2</text>
+<line x1="592.1" y1="350.0" x2="592.1" y2="138.3" stroke="#94a3b8" stroke-width="5"/>
+<line x1="592.1" y1="318.7" x2="592.1" y2="169.6" stroke="#2563eb" stroke-width="2"/>
+<circle cx="592.1" cy="244.2" r="4" fill="#2563eb"><title>3: 0.025 DP</title></circle>
+<text x="585.1" y="440" font-size="11" fill="#334155">3</text>
+<line x1="650.7" y1="293.0" x2="650.7" y2="69.6" stroke="#94a3b8" stroke-width="5"/>
+<line x1="650.7" y1="259.9" x2="650.7" y2="102.6" stroke="#2563eb" stroke-width="2"/>
+<circle cx="650.7" cy="181.3" r="4" fill="#2563eb"><title>4: 0.196 DP</title></circle>
+<text x="643.7" y="440" font-size="11" fill="#334155">4</text>
+<line x1="709.3" y1="290.0" x2="709.3" y2="56.9" stroke="#94a3b8" stroke-width="5"/>
+<line x1="709.3" y1="255.6" x2="709.3" y2="91.4" stroke="#2563eb" stroke-width="2"/>
+<circle cx="709.3" cy="173.5" r="4" fill="#2563eb"><title>5: 0.217 DP</title></circle>
+<text x="702.3" y="440" font-size="11" fill="#334155">5</text>
+<line x1="767.9" y1="340.5" x2="767.9" y2="91.0" stroke="#94a3b8" stroke-width="5"/>
+<line x1="767.9" y1="303.6" x2="767.9" y2="127.9" stroke="#2563eb" stroke-width="2"/>
+<circle cx="767.9" cy="215.7" r="4" fill="#2563eb"><title>6: 0.102 DP</title></circle>
+<text x="760.9" y="440" font-size="11" fill="#334155">6</text>
+<line x1="826.4" y1="286.1" x2="826.4" y2="45.4" stroke="#94a3b8" stroke-width="5"/>
+<line x1="826.4" y1="250.5" x2="826.4" y2="81.0" stroke="#2563eb" stroke-width="2"/>
+<circle cx="826.4" cy="165.7" r="4" fill="#2563eb"><title>7: 0.238 DP</title></circle>
+<text x="819.4" y="440" font-size="11" fill="#334155">7</text>
+<line x1="885.0" y1="314.6" x2="885.0" y2="97.7" stroke="#94a3b8" stroke-width="5"/>
+<line x1="885.0" y1="282.6" x2="885.0" y2="129.7" stroke="#2563eb" stroke-width="2"/>
+<circle cx="885.0" cy="206.2" r="4" fill="#2563eb"><title>8: 0.128 DP</title></circle>
+<text x="878.0" y="440" font-size="11" fill="#334155">8</text>
+<text x="430.0" y="462" font-size="12" fill="#334155">Jogo relativo</text>
+<text x="8" y="222.5" font-size="12" fill="#334155">Efeito (DP)</text>
+</svg>

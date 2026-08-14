@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-07-12",
+  "random_seed": 20220712,
+  "population_flag": "eligible_qualified_risk_set",
+  "treatment": "treated_world_cup",
+  "strata": ["league_name", "position_group"],
+  "nationality_strategy": {
+    "primary": "qualified_nation_risk_set_without_country_fixed_effects",
+    "reason": "country indicators caused severe positivity loss in pre-outcome diagnostics",
+    "sensitivity": "eligible_same_nation_support"
+  },
+  "continuous_covariates": [
+    "age_at_world_cup",
+    "market_value_log",
+    "pre_minutes_share",
+    "pre_squad_rate",
+    "pre_start_rate",
+    "pre_npxg_xa",
+    "pre_injury_days",
+    "pre_club_ppg",
+    "pre_opponent_ppg",
+    "pre_trend_minutes_share",
+    "pre_trend_npxg_xa"
+  ],
+  "key_covariates": [
+    "market_value_log",
+    "pre_minutes_share",
+    "pre_start_rate",
+    "pre_npxg_xa",
+    "pre_trend_minutes_share",
+    "pre_trend_npxg_xa"
+  ],
+  "propensity": {
+    "estimation": "ridge_logistic_within_league_position",
+    "ridge_grid": [0.10, 0.20, 0.30, 0.40, 0.45, 0.50, 0.55, 0.60, 0.70, 0.80, 1.00, 1.20, 1.50, 2.00],
+    "max_iterations": 200,
+    "tolerance": 1e-8,
+    "probability_clip": 1e-6,
+    "common_support_lower": 0.05,
+    "common_support_upper": 0.95
+  },
+  "calibration": {
+    "enabled": true,
+    "target": "combined_overlap_distribution",
+    "variables": "all_continuous_covariates_plus_strata_plus_game_level_history",
+    "tolerance": 1e-9,
+    "max_iterations": 200
+  },
+  "history_balance": {
+    "event_times": [-8, -7, -6, -5, -4, -3, -2, -1],
+    "outcomes": ["minutes_share", "npxg_xa_per_club_match"]
+  },
+  "selection_gates": {
+    "max_abs_smd": 0.10,
+    "max_abs_smd_key": 0.05,
+    "min_ess_fraction_each_group": 0.50,
+    "min_treated_support_fraction": 0.80,
+    "target_treated_support_fraction": 0.90,
+    "max_normalized_weight": 10.0
+  },
+  "entropy_balancing": {
+    "enabled": true,
+    "estimand": "ATT",
+    "moments": "continuous_means_plus_strata_shares",
+    "tolerance": 1e-7,
+    "max_iterations": 500,
+    "max_normalized_control_weight": 10.0
+  },
+  "pretrends": {
+    "calibration_reference_match": -1,
+    "calibration_joint_window": [-8, -2],
+    "holdout_reference_match": -8,
+    "holdout_joint_window": [-14, -9],
+    "equivalence_margin_sd": 0.10,
+    "alpha": 0.05,
+    "chi_square_simulations": 100000,
+    "outcomes": [
+      "minutes_share",
+      "in_match_squad",
+      "played",
+      "started",
+      "npxg_xa_per_club_match"
+    ]
+  },
+  "forbidden_columns": [
+    "post_minutes", "post_played", "post_injury", "january_transfer",
+    "long_injury_crossing", "same_club_pre_post", "coverage_ok",
+    "post_acute_minutes_share", "post_consolidated_minutes_share"
+  ]
+}

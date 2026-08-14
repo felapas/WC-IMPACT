@@ -1,0 +1,19 @@
+domain,specification,status,reason
+post_window,4_games,implemented,complete local coverage
+post_window,6_games,implemented,complete local coverage
+post_window,8_games,implemented,complete local coverage
+post_window,10_games,implemented,complete local coverage
+baseline_minutes,90,implemented_fresh_overlap_diagnostic_gate_not_met,separate fresh-weight output preserves the frozen-grid ESS gate result
+baseline_minutes,180,implemented_primary,frozen design
+baseline_minutes,360,implemented_subset,restriction within weighted risk set
+pretrend_history,8_games,implemented,complete
+pretrend_history,12_games,implemented,complete
+pretrend_history,14_games,implemented,complete
+pretrend_history,16_games,unavailable,game -15 incomplete and game -16 absent
+season_placebo,2021_22_or_2023_24,unavailable,no adjacent-season local panel
+population,same_nation_support,implemented_subset,uses frozen overlap weights
+population,near_miss_or_big_five_broad,deferred_requires_reweighting,estimand and support must be rebuilt
+weights,overlap_entropy_matching_unweighted,implemented,entropy and matching remain sensitivity-only
+leave_one_out,league_club_selection,implemented,primary outcome
+dose,world_cup_minutes,implemented_associational,called players only
+heterogeneity,four_frozen_modifiers,implemented_exploratory,formal interaction differences with BH

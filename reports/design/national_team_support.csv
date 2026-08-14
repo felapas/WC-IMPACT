@@ -1,0 +1,115 @@
+national_team_eligible,all_players,baseline_eligible,qualified_risk_set,treated,controls,qualified_national_team,eligible_treated,eligible_controls,eligible_control_treated_ratio,same_nation_overlap
+Albania,16,6,0,0,16,False,0,0,,False
+Algeria,30,20,0,0,30,False,0,0,,False
+Andorra,1,0,0,0,1,False,0,0,,False
+Angola,4,2,0,0,4,False,0,0,,False
+Argentina,72,39,39,22,50,True,15,24,1.6,True
+Armenia,3,2,0,0,3,False,0,0,,False
+Australia,6,1,1,2,4,True,0,1,,False
+Austria,33,22,0,0,33,False,0,0,,False
+Belgium,42,22,22,19,23,True,13,9,0.6923076923076923,True
+Benin,3,1,0,0,3,False,0,0,,False
+Bosnia-Herzegovina,15,8,0,0,15,False,0,0,,False
+Brazil,98,71,71,22,76,True,20,51,2.55,True
+Bulgaria,5,1,0,0,5,False,0,0,,False
+Burkina Faso,5,4,0,0,5,False,0,0,,False
+Cameroon,27,14,14,10,17,True,8,6,0.75,True
+Canada,4,2,2,3,1,True,2,0,0.0,False
+Cape Verde,4,1,0,0,4,False,0,0,,False
+Central African Republic,1,1,0,0,1,False,0,0,,False
+Chile,8,4,0,0,8,False,0,0,,False
+Colombia,24,13,0,0,24,False,0,0,,False
+Comoros,5,1,0,0,5,False,0,0,,False
+Congo,4,1,0,0,4,False,0,0,,False
+Costa Rica,2,1,1,1,1,True,0,1,,False
+Cote d'Ivoire,37,21,0,0,37,False,0,0,,False
+Croatia,36,19,19,15,21,True,12,7,0.5833333333333334,True
+Cyprus,1,0,0,0,1,False,0,0,,False
+Czech Republic,14,7,0,0,14,False,0,0,,False
+DR Congo,14,8,0,0,14,False,0,0,,False
+Denmark,47,25,25,20,27,True,11,14,1.2727272727272727,True
+Dominican Republic,4,1,0,0,4,False,0,0,,False
+Ecuador,7,6,6,7,0,True,6,0,0.0,False
+Egypt,4,3,0,0,4,False,0,0,,False
+England,205,92,92,26,179,True,20,72,3.6,True
+Equatorial Guinea,3,1,0,0,3,False,0,0,,False
+Estonia,1,0,0,0,1,False,0,0,,False
+Finland,7,2,0,0,7,False,0,0,,False
+France,326,169,169,26,300,True,21,148,7.0476190476190474,True
+French Guiana,2,1,0,0,2,False,0,0,,False
+Gabon,3,2,0,0,3,False,0,0,,False
+Georgia,3,2,0,0,3,False,0,0,,False
+Germany,243,107,107,26,217,True,21,86,4.095238095238095,True
+Ghana,25,18,18,13,12,True,11,7,0.6363636363636364,True
+Greece,11,7,0,0,11,False,0,0,,False
+Grenada,1,1,0,0,1,False,0,0,,False
+Guadeloupe,7,5,0,0,7,False,0,0,,False
+Guinea,10,6,0,0,10,False,0,0,,False
+Guinea-Bissau,5,3,0,0,5,False,0,0,,False
+Haiti,3,2,0,0,3,False,0,0,,False
+Honduras,1,1,0,0,1,False,0,0,,False
+Hungary,6,3,0,0,6,False,0,0,,False
+Iceland,2,0,0,0,2,False,0,0,,False
+Indonesia,1,0,0,0,1,False,0,0,,False
+Iran,2,0,0,2,0,True,0,0,,False
+Iraq,2,0,0,0,2,False,0,0,,False
+Ireland,22,3,0,0,22,False,0,0,,False
+Israel,4,2,0,0,4,False,0,0,,False
+Italy,256,100,0,0,256,False,0,0,,False
+Jamaica,10,5,0,0,10,False,0,0,,False
+Japan,16,11,11,13,3,True,10,1,0.1,True
+Korea Republic,6,5,5,6,0,True,5,0,0.0,False
+Kosovo,9,5,0,0,9,False,0,0,,False
+Lithuania,1,0,0,0,1,False,0,0,,False
+Luxembourg,3,1,0,0,3,False,0,0,,False
+Madagascar,2,1,0,0,2,False,0,0,,False
+Mali,25,17,0,0,25,False,0,0,,False
+Malta,1,0,0,0,1,False,0,0,,False
+Martinique,3,0,0,0,3,False,0,0,,False
+Mauritania,1,0,0,0,1,False,0,0,,False
+Mexico,5,2,2,4,1,True,2,0,0.0,False
+Moldova,1,0,0,0,1,False,0,0,,False
+Montenegro,5,3,0,0,5,False,0,0,,False
+Montserrat,1,0,0,0,1,False,0,0,,False
+Morocco,40,20,20,14,26,True,10,10,1.0,True
+Mozambique,1,1,0,0,1,False,0,0,,False
+Netherlands,58,35,35,11,47,True,9,26,2.888888888888889,True
+New Caledonia,1,0,0,0,1,False,0,0,,False
+New Zealand,3,0,0,0,3,False,0,0,,False
+Nigeria,22,18,0,0,22,False,0,0,,False
+North Macedonia,4,1,0,0,4,False,0,0,,False
+Northern Ireland,4,1,0,0,4,False,0,0,,False
+Norway,24,11,0,0,24,False,0,0,,False
+Paraguay,5,2,0,0,5,False,0,0,,False
+Peru,1,1,0,0,1,False,0,0,,False
+Philippines,1,1,0,0,1,False,0,0,,False
+Poland,39,15,15,16,23,True,12,3,0.25,True
+Portugal,64,42,42,19,45,True,16,26,1.625,True
+Romania,6,1,0,0,6,False,0,0,,False
+Russia,3,2,0,0,3,False,0,0,,False
+Scotland,24,12,0,0,24,False,0,0,,False
+Senegal,39,17,17,16,23,True,10,7,0.7,True
+Serbia,36,23,23,19,17,True,15,8,0.5333333333333333,True
+Sierra Leone,1,1,0,0,1,False,0,0,,False
+Slovakia,12,5,0,0,12,False,0,0,,False
+Slovenia,8,5,0,0,8,False,0,0,,False
+South Africa,1,0,0,0,1,False,0,0,,False
+Spain,412,197,197,26,386,True,21,176,8.380952380952381,True
+Suriname,2,1,0,0,2,False,0,0,,False
+Sweden,20,7,0,0,20,False,0,0,,False
+Switzerland,26,16,16,17,9,True,13,3,0.23076923076923078,True
+Syria,1,0,0,0,1,False,0,0,,False
+The Gambia,4,3,0,0,4,False,0,0,,False
+Togo,2,1,0,0,2,False,0,0,,False
+Tunisia,10,7,7,4,6,True,4,3,0.75,True
+Turkey,21,12,0,0,21,False,0,0,,False
+USA,21,13,13,13,8,True,10,3,0.3,True
+Uganda,1,0,0,0,1,False,0,0,,False
+Ukraine,7,4,0,0,7,False,0,0,,False
+Uruguay,28,16,16,10,18,True,7,9,1.2857142857142858,True
+Uzbekistan,1,0,0,0,1,False,0,0,,False
+Venezuela,4,2,0,0,4,False,0,0,,False
+Wales,20,10,10,12,8,True,10,0,0.0,False
+Zambia,3,2,0,0,3,False,0,0,,False
+Zimbabwe,4,2,0,0,4,False,0,0,,False
+,31,0,0,0,31,False,0,0,,False

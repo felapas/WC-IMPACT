@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "purpose": "negative_control_seasonal_placebo",
+  "season": 2021,
+  "baseline_cutoff": "2021-11-07",
+  "post_start": "2021-11-19",
+  "pause": "FIFA international window of November 2021",
+  "treatment_label": "member_of_official_Qatar_2022_final_squad",
+  "estimand": "ATO placebo association; not a World Cup effect",
+  "random_seed": 20211107,
+  "strata": ["league_name", "position_group"],
+  "treatment": "treated_world_cup",
+  "continuous_covariates": [
+    "age_at_pseudo_cutoff",
+    "market_value_log",
+    "pre_minutes_share",
+    "pre_squad_rate",
+    "pre_start_rate",
+    "pre_club_ppg",
+    "pre_opponent_ppg",
+    "pre_trend_minutes_share"
+  ],
+  "key_covariates": [
+    "market_value_log",
+    "pre_minutes_share",
+    "pre_start_rate",
+    "pre_trend_minutes_share"
+  ],
+  "propensity": {
+    "ridge_grid": [0.1, 0.3, 0.5, 0.8, 1.2, 1.5, 2.0],
+    "max_iterations": 200,
+    "tolerance": 1e-8,
+    "probability_clip": 1e-6,
+    "common_support_lower": 0.05,
+    "common_support_upper": 0.95
+  },
+  "calibration": {
+    "enabled": true,
+    "target": "combined_overlap_distribution",
+    "tolerance": 1e-9,
+    "max_iterations": 200
+  },
+  "selection_gates": {
+    "max_abs_smd": 0.10,
+    "max_abs_smd_key": 0.05,
+    "min_ess_fraction_each_group": 0.50,
+    "min_treated_support_fraction": 0.80,
+    "max_normalized_weight": 10.0
+  },
+  "window": {"pre": [-8, -1], "acute": [1, 4], "consolidated": [5, 8]},
+  "analysis": {
+    "primary_outcome": "minutes_share",
+    "fixed_effects": ["transfermarkt_player_id", "club_game_id"],
+    "alpha": 0.05
+  }
+}

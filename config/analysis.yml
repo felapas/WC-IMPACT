@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-07-11",
+  "random_seed": 20220711,
+  "design": {
+    "baseline_cutoff": "2022-11-13",
+    "treatment_start": "2022-11-20",
+    "post_start": "2022-12-19",
+    "pre_diagnostic_games": 16,
+    "pre_estimation_games": 8,
+    "post_games": 10,
+    "primary_post_games": 8,
+    "acute_games": 4,
+    "baseline_minutes_threshold": 180,
+    "baseline_games_threshold": 4,
+    "baseline_minutes_sensitivity": [90, 180, 360],
+    "window_sensitivity": [4, 6, 8, 10]
+  },
+  "estimand": {
+    "primary": "ATO",
+    "treatment": "official_final_world_cup_squad",
+    "primary_outcome": "minutes_share",
+    "primary_window": "post_acute",
+    "reference_match": -1,
+    "risk_set": "players_eligible_for_qualified_national_teams"
+  },
+  "balance_gates": {
+    "max_abs_smd": 0.10,
+    "max_abs_smd_key": 0.05,
+    "min_variance_ratio": 0.50,
+    "max_variance_ratio": 2.00,
+    "max_ks": 0.10,
+    "min_ess_fraction": 0.50,
+    "min_treated_support_fraction": 0.80,
+    "target_treated_support_fraction": 0.90
+  },
+  "power": {
+    "alpha": 0.05,
+    "target_power": 0.80,
+    "simulations": 2000,
+    "effect_multipliers": [0.0, 0.5, 1.0, 1.5]
+  },
+  "sesoi": {
+    "primary_outcome": "minutes_share",
+    "absolute_effect": 0.05,
+    "equivalent_minutes_per_match": 4.5,
+    "equivalent_minutes_in_acute_window": 18.0,
+    "status": "frozen_before_confirmatory_models"
+  },
+  "qualified_teams": [
+    "Argentina", "Australia", "Belgium", "Brazil", "Cameroon", "Canada",
+    "Costa Rica", "Croatia", "Denmark", "Ecuador", "England", "France",
+    "Germany", "Ghana", "Iran", "Japan", "Korea Republic", "Mexico",
+    "Morocco", "Netherlands", "Poland", "Portugal", "Qatar",
+    "Saudi Arabia", "Senegal", "Serbia", "Spain", "Switzerland",
+    "Tunisia", "USA", "Uruguay", "Wales"
+  ],
+  "confirmatory_outcomes": [
+    "minutes_share", "in_match_squad", "played", "started",
+    "minutes_played", "npxg_xa_per_club_match"
+  ],
+  "post_treatment_variables_forbidden_in_eligibility": [
+    "post_minutes", "post_played", "post_injury", "january_transfer",
+    "long_injury_crossing", "same_club_pre_post", "coverage_ok"
+  ]
+}

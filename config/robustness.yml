@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-07-12",
+  "random_seed": 20220712,
+  "primary_outcome": "minutes_share",
+  "secondary_outcome": "npxg_xa_per_club_match",
+  "post_window_sensitivity": [4, 6, 8, 10],
+  "baseline_minutes_sensitivity": [90, 180, 360],
+  "pretrend_games_sensitivity": [8, 12, 14, 16],
+  "weight_methods": ["overlap", "entropy_att", "matching_1_to_3", "unweighted"],
+  "populations": ["qualified_risk", "same_nation_support"],
+  "weight_truncation_quantiles": [0.95, 0.99],
+  "leave_one_out": ["league_name_y", "baseline_club_id", "national_team_eligible"],
+  "trend_sensitivity_multipliers": [0.0, 0.25, 0.5, 1.0, 1.5, 2.0],
+  "dose_categories": ["0", "1-90", "91-270", ">270"],
+  "heterogeneity": ["position_group", "age_group", "baseline_starter", "prior_injury"],
+  "alpha": 0.05,
+  "interpretation": "associational_until_parallel_trend_sensitivity_is_resolved"
+}

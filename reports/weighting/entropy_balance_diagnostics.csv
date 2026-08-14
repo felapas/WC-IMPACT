@@ -1,0 +1,2 @@
+method,converged,iterations,max_moment_error,treated_ess,control_ess,control_ess_fraction,max_normalized_control_weight,stable_for_primary
+entropy_balancing_att,True,6,7.369334066587019e-10,314.0,147.4381745156725,0.21032549859582383,23.382347003929194,False

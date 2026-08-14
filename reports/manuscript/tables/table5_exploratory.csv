@@ -1,0 +1,13 @@
+Família,Termo,Estimativa,p,p BH
+Dose,1-90,-0.173,0.043,0.130
+Dose,91-270,-0.061,0.408,0.587
+Dose,>270,-0.054,0.489,0.587
+Dose,slope 0 90 per 90,-0.021,0.789,0.789
+Dose,slope 91 270 per 90,0.061,0.070,0.140
+Dose,slope above 270 per 90,-0.045,0.027,0.130
+Heterogeneidade,Defender vs Attack,-0.122,0.006,0.037
+Heterogeneidade,Midfield vs Attack,-0.082,0.061,0.121
+Heterogeneidade,under25 vs 25to29,-0.004,0.919,0.919
+Heterogeneidade,30plus vs 25to29,0.072,0.100,0.150
+Heterogeneidade,starter high vs starter low,0.007,0.866,0.919
+Heterogeneidade,injury yes vs injury no,0.078,0.016,0.048

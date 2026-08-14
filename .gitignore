@@ -1,0 +1,45 @@
+# Raw third-party data
+/data/raw/**
+!/data/raw/**/
+!/data/raw/**/.gitkeep
+!/data/raw/**/manifest.csv
+
+# Row-level intermediate / processed data are rebuilt locally
+/data/interim/*.csv
+!/data/interim/manifest.csv
+!/data/interim/qa_summary.csv
+/data/processed/*.csv
+!/data/processed/data_dictionary.csv
+!/data/processed/manifest.csv
+!/data/processed/panel_qa_summary.csv
+!/data/processed/injury_source_audit.csv
+
+# Row-level report artifacts intentionally excluded from public releases
+/reports/design/baseline_assignment_review.csv
+/reports/design/national_eligibility_review.csv
+/reports/placebo_2021_22/analysis_weights.csv
+/reports/placebo_2023_24/analysis_weights.csv
+
+# Generated paper build products; the curated PDF in output/pdf is tracked
+/reports/submission_fame2026/output/
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.log
+
+# Local tools and environments
+/tools/
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

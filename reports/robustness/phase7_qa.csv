@@ -1,0 +1,12 @@
+check,observed,expected,passed
+window_sensitivity_complete,8,8,True
+sample_weight_sensitivity_complete,16,16,True
+pretrend_length_complete,6,6,True
+leave_one_out_nonempty,264,>0,True
+trend_sensitivity_complete,24,24,True
+confounding_sensitivity_complete,2,2,True
+dose_response_complete,6,6,True
+heterogeneity_complete,6,6,True
+coverage_records_unavailable_specs,2,>=2,True
+all_core_estimates_finite,294,294,True
+strong_language_closed,0,0,True

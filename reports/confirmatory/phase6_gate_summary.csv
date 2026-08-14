@@ -1,0 +1,8 @@
+gate,passed,role
+phase5_weighting_ready,True,required
+all_primary_models_converged,True,required
+holdout_placebo_primary_p_above_0_05,True,diagnostic_not_proof
+phase5_strong_causal_language_ready,False,required_for_strong_causal_language
+models_ready_for_reporting,True,decision
+primary_model_excludes_material_acute_decline,True,model_conditional_not_causal
+strong_causal_language_ready,False,decision

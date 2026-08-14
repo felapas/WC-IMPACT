@@ -1,0 +1,13 @@
+override_type,transfermarkt_player_id,player_name,baseline_club_id,national_team,decision,source_reference,reviewer,review_date
+baseline_club,229005,Abdou Diallo,23826,,confirmed,"data/interim/big5_player_match_2022_23.csv; latest pre-cutoff observed club",Codex-assisted manual review,2026-07-12
+baseline_club,324282,Fabio Depaoli,276,,confirmed,"data/interim/big5_player_match_2022_23.csv; latest pre-cutoff observed club",Codex-assisted manual review,2026-07-12
+baseline_club,872380,Felix Afena-Gyan,2239,,confirmed,"data/interim/big5_player_match_2022_23.csv; latest pre-cutoff observed club",Codex-assisted manual review,2026-07-12
+baseline_club,175014,Youcef Belaili,1147,,confirmed,"data/interim/big5_player_match_2022_23.csv; latest pre-cutoff observed club",Codex-assisted manual review,2026-07-12
+national_team,364525,Bevic Moussiti-Oko,,Congo,confirmed,https://www.jleague.jp/player/1653089/,Codex-assisted manual review,2026-07-12
+national_team,34787,Julian Baumgartlinger,,Austria,confirmed,https://www.bundesliga.at/de/spieler/julian-baumgartlinger/36044/karriere,Codex-assisted manual review,2026-07-12
+national_team,89592,Marvin Plattenhardt,,Germany,confirmed,https://datencenter.dfb.de/datencenter/personen/marvin-plattenhardt/spieler,Codex-assisted manual review,2026-07-12
+national_team,138171,Mathias Autret,,France,confirmed,https://www.fff.fr/equipe-nationale/joueur/6704-autret-mathias/fiche.html,Codex-assisted manual review,2026-07-12
+national_team,39914,Mathieu Coutadeur,,France,confirmed,https://www.fff.fr/equipe-nationale/joueur/7844-coutadeur-mathieu/fiche.html,Codex-assisted manual review,2026-07-12
+national_team,179806,Miha Blazic,,Slovenia,confirmed,https://www.nzs.si/Reprezentanca/?id_igralca=60445&id_selekcije=1,Codex-assisted manual review,2026-07-12
+national_team,674921,Nikola Soldo,,Croatia,confirmed,https://hns.team/igraci/168963/nikola-soldo/,Codex-assisted manual review,2026-07-12
+national_team,234802,Renaud Ripart,,France,confirmed,https://www.lequipe.fr/fiche/renaud-ripart/209245,Codex-assisted manual review,2026-07-12

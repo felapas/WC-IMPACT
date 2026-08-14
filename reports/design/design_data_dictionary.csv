@@ -1,0 +1,341 @@
+file,unit_of_observation,column,dtype,description
+analysis_sample_baseline_only.csv,jogador,transfermarkt_player_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_club_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,last_pre_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,first_pre_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_source_minutes,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_source_games,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,player_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_club_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,competition_id,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,league_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,date_of_birth,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,broad_position,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,sub_position,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,country_of_citizenship,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,foot,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,height_in_cm,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,is_goalkeeper,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,first_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,last_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,spell_start,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,spell_end,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,start_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,end_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,january_transfer,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,spell_valid,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,active_by_spell_at_cutoff,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_club_candidate_count,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,active_spell_candidate_count,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_club_assignment_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_club_assignment_review,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_club_override_applied,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,treated_world_cup,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,fifa_squad_id,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,country_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,statsbomb_player_id,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,valuation_date,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,market_value_in_eur,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,market_value_log,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_injury_events,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_injury_days,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,long_injury_crossing,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,age_at_world_cup,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_club_ppg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_club_gd_per_game,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,position_group,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_minutes_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_started,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_extra_time_game,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_max_stage_order,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_npxg_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_xa_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_progressive_passes_proxy_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,wc_pressures_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,understat_linked,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_club_games,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_minutes_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_in_match_squad,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_started,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_npxg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_npxg_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_opponent_ppg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_minutes_share,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_squad_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_played_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_start_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_club_games,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_minutes_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_in_match_squad,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_started,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_npxg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_npxg_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_opponent_ppg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_minutes_share,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_squad_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_played_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_early_start_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_club_games,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_minutes_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_in_match_squad,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_started,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_npxg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_npxg_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_opponent_ppg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_minutes_share,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_squad_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_played_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_late_start_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_club_games,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_minutes_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_in_match_squad,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_started,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_npxg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_npxg_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_opponent_ppg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_minutes_share,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_squad_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_played_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,diagnostic_pre_start_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_trend_minutes_share,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_trend_squad_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_trend_played_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_trend_start_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_trend_npxg_xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,outfield,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,pre_games_ok,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_minutes_ok,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,baseline_identity_valid,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,eligible_baseline_only,bool,Elegibilidade definida somente com informação até 13/11/2022.
+analysis_sample_baseline_only.csv,jogador,citizenship_canonical,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,official_team_canonical,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,national_team_eligible,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,national_eligibility_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,national_eligibility_confidence,str,Confiança da atribuição de seleção elegível.
+analysis_sample_baseline_only.csv,jogador,national_team_override_applied,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,treated_country_citizenship_mismatch,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,dual_nationality_not_observed,int8,Indica que a fonte usada não representa dupla nacionalidade.
+analysis_sample_baseline_only.csv,jogador,national_eligibility_review_required,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,qualified_national_team,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,nation_treated_count,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,nation_control_count,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,nation_control_treated_ratio,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,nation_support_any,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,nation_support_ratio_ge_1,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,eligible_qualified_risk_set,bool,Elegível baseline e ligado a seleção classificada.
+analysis_sample_baseline_only.csv,jogador,eligible_same_nation_support,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,eligible_same_nation_ratio_ge_1,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,analysis_config_sha256,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+analysis_sample_baseline_only.csv,jogador,manual_overrides_sha256,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,transfermarkt_player_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,baseline_club_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,last_pre_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,first_pre_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,pre_source_minutes,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,pre_source_games,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,player_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,baseline_club_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,competition_id_x,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,league_name_x,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,date_of_birth,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,broad_position,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,sub_position,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,country_of_citizenship,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,foot,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,height_in_cm,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,is_goalkeeper,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,first_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,last_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,spell_start,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,spell_end,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,start_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,end_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,january_transfer_x,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,spell_valid,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,active_by_spell_at_cutoff,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,baseline_club_candidate_count,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,active_spell_candidate_count,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,baseline_club_assignment_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,baseline_club_assignment_review,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,baseline_club_override_applied,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,treated_world_cup,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,fifa_squad_id,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,country_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,statsbomb_player_id,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,sb_link_status,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_minutes_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_started,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_extra_time_game,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_max_stage_order,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_npxg_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_xa_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_progressive_passes_proxy_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,wc_pressures_p90,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,valuation_date,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,market_value_in_eur,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,market_value_log,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,pre_injury_events,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,pre_injury_days,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,long_injury_crossing,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,january_transfer_y,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,age_at_world_cup,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,pre_club_ppg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,pre_club_gd_per_game,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,position_group,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,game_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,match_date,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,competition_id_y,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,league_name_y,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,club_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,club_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,opponent_club_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,opponent_club_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,is_home,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,club_goals,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,opponent_goals,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,round,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,club_table_position,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,opponent_table_position,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,club_formation,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,days_since_club_game,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,relative_club_match,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,window,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,pre_opponent_ppg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,lineup_position,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,started,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,team_captain,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,minutes_played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,goals,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,assists,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,yellow_cards,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,red_cards,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,played,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,in_match_squad,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,possible_minutes,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,minutes_share,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,lineup_source_inconsistency,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,effective_spell_end,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,spell_end_adjusted_for_observed_appearance,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,active_at_baseline_club,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,zero_after_recorded_baseline_club_exit,int8,Partida posterior ao fim registrado do vínculo com o clube-base.
+design_player_match.csv,jogador + partida do clube-base,shots,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,understat_goals,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,shots_on_target,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,penalties,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,xg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,npxg,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,xa,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,key_passes,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,understat_linked,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,npxg_xa_per_club_match,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,performance_source_inconsistency,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,eligible_baseline_only,bool,Elegibilidade definida somente com informação até 13/11/2022.
+design_player_match.csv,jogador + partida do clube-base,eligible_qualified_risk_set,bool,Elegível baseline e ligado a seleção classificada.
+design_player_match.csv,jogador + partida do clube-base,national_team_eligible,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,analysis_config_sha256,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_player_match.csv,jogador + partida do clube-base,manual_overrides_sha256,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,transfermarkt_player_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,player_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,treated_world_cup,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,country_of_citizenship,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,citizenship_canonical,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,country_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,official_team_canonical,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,national_team_eligible,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,qualified_national_team,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,national_eligibility_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,national_eligibility_confidence,str,Confiança da atribuição de seleção elegível.
+national_team_eligibility.csv,jogador,national_team_override_applied,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,dual_nationality_not_observed,int8,Indica que a fonte usada não representa dupla nacionalidade.
+national_team_eligibility.csv,jogador,treated_country_citizenship_mismatch,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,national_eligibility_review_required,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,nation_treated_count,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,nation_control_count,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,nation_control_treated_ratio,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,nation_support_any,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,nation_support_ratio_ge_1,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,eligible_baseline_only,bool,Elegibilidade definida somente com informação até 13/11/2022.
+national_team_eligibility.csv,jogador,eligible_qualified_risk_set,bool,Elegível baseline e ligado a seleção classificada.
+national_team_eligibility.csv,jogador,eligible_same_nation_support,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_eligibility.csv,jogador,eligible_same_nation_ratio_ge_1,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+sample_flow.csv,etapa de seleção,step,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+sample_flow.csv,etapa de seleção,total,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+sample_flow.csv,etapa de seleção,treated,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+sample_flow.csv,etapa de seleção,controls,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+sample_flow.csv,etapa de seleção,share_of_initial,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+missingness.csv,população + tratamento + variável,population,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+missingness.csv,população + tratamento + variável,treated_world_cup,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+missingness.csv,população + tratamento + variável,variable,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+missingness.csv,população + tratamento + variável,n,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+missingness.csv,população + tratamento + variável,missing,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+missingness.csv,população + tratamento + variável,missing_rate,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,outcome,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,method,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,n_players,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,n_treated,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,n_controls,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,n_clubs,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,alpha,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,target_power,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,cluster_se_under_null,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,analytic_mde_80,float64,Menor efeito detectável aproximado com poder de 80%.
+mde_power.csv,outcome + tamanho de efeito,baseline_treated_mean,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,mde_share_of_baseline,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,effect_label,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,effect_multiplier,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,simulated_effect,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,simulated_power,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,simulations,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+mde_power.csv,outcome + tamanho de efeito,uses_post_treatment_outcomes,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_qa.csv,controle de qualidade,check,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_qa.csv,controle de qualidade,observed,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_qa.csv,controle de qualidade,expected,object,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+design_qa.csv,controle de qualidade,passed,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,transfermarkt_player_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,player_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,baseline_club_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,baseline_club_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,baseline_club_assignment_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,baseline_club_candidate_count,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,active_spell_candidate_count,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,last_pre_observed,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,spell_start,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,spell_end,datetime64[us],Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,eligible_baseline_only,bool,Elegibilidade definida somente com informação até 13/11/2022.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,treated_world_cup,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+baseline_assignment_review.csv,jogador sinalizado para revisão de clube-base,review_reason,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,transfermarkt_player_id,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,player_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,treated_world_cup,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,country_of_citizenship,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,country_name,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,citizenship_canonical,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,official_team_canonical,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,national_team_eligible,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,national_eligibility_source,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,national_eligibility_confidence,str,Confiança da atribuição de seleção elegível.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,treated_country_citizenship_mismatch,int8,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,eligible_baseline_only,bool,Elegibilidade definida somente com informação até 13/11/2022.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,eligible_qualified_risk_set,bool,Elegível baseline e ligado a seleção classificada.
+national_eligibility_review.csv,jogador sinalizado para revisão nacional,review_reason,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,national_team_eligible,str,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,all_players,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,baseline_eligible,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,qualified_risk_set,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,treated,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,controls,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,qualified_national_team,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,eligible_treated,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,eligible_controls,int64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,eligible_control_treated_ratio,float64,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.
+national_team_support.csv,seleção nacional elegível,same_nation_overlap,bool,Campo de fonte ou derivado; regra reproduzível em build_design_phase.py.

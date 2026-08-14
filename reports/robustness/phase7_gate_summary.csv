@@ -1,0 +1,7 @@
+gate,passed,role
+core_robustness_matrix_executed,True,required
+post_10_game_window_available,True,robustness
+adjacent_season_placebo_available,False,data_limitation
+consolidated_sign_robust_to_small_trend_violation,False,required_for_causal_interpretation
+strong_causal_language_ready,False,decision
+adjusted_association_language_ready,True,decision

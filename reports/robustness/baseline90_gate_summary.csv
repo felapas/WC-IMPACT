@@ -1,0 +1,13 @@
+gate,observed,expected,passed,role
+frozen_overlap_candidate_passes_all_gates,False,True,False,weighting_diagnostic
+treated_ess_fraction,0.6773597802975092,>=0.5,True,weighting_diagnostic
+control_ess_fraction,0.49611423466827265,>=0.5,False,weighting_diagnostic
+treated_support_fraction,0.9591836734693877,>=0.8,True,weighting_diagnostic
+maximum_normalized_weight,6.587163513397883,<=10.0,True,weighting_diagnostic
+all_diagnostic_max_abs_smd,0.0032660410668357838,<=0.10,True,balance_diagnostic
+all_diagnostic_max_ks,0.08187115462731287,<=0.10,True,balance_diagnostic
+all_diagnostic_variance_ratio_range,0.757414714701--1.30267524675,0.50--2.00,True,balance_diagnostic
+holdout_joint_p_above_0_05,0.92782,>=0.05,True,diagnostic_not_proof
+holdout_pointwise_equivalence,False,True,False,required_for_strong_causal_language
+results_reportable_as_diagnostic_sensitivity,True,True,True,reporting_decision
+strong_causal_language_ready,False,True,False,reporting_decision

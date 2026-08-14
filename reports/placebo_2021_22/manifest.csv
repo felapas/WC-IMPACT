@@ -1,0 +1,13 @@
+relative_path,rows,bytes,sha256,generated_by,source_url
+analysis_weights.csv,965,172487,ac3ba1908ea1dfdd819a228db6c312845e2752e1b3a8699bd895f60ace542455,scripts/analysis/run_placebo_2021_22.py,
+placebo_coefficients.csv,7,3110,39ba983013299aceb42fc5b45f6dc9574deb7462b2eac542964bbe2d012d5b7b,scripts/analysis/run_placebo_2021_22.py,
+qa.csv,9,400,0b55d85e3a3db2d2cb25d2255d3226994542dda0cf195962db92779adc769daf,scripts/analysis/run_placebo_2021_22.py,
+sample_flow.csv,5,273,8ba3f31db24f6f151f81776834cc52a381217c13a427b8bb9700476f3fd7620e,scripts/analysis/run_placebo_2021_22.py,
+weighting_diagnostics.csv,39,11446,04a938b2467d3dcc8993bd397adba1f85155f075e2acf1b80fe02f6dced8f9d4,scripts/analysis/run_placebo_2021_22.py,
+config/placebo_2021_22.yml,,1600,ca6367622af8f5f7071d0c6ec18757255bc842a400741a46766a631cca9ef49a,input_or_config,
+data/raw/transfermarkt/dcaribou_2021_22/games.csv.gz,,4707840,14882f09be887c716990b77a0e9e7a2a39e63f30b9c592560d8987450969c67b,input_or_config,https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/games.csv.gz
+data/raw/transfermarkt/dcaribou_2021_22/appearances.csv.gz,,42857706,7adfea2165872305054c387486e50834fea8227900aa773ea5f8c170bf0a6be2,input_or_config,https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/appearances.csv.gz
+data/raw/transfermarkt/dcaribou_2021_22/game_lineups.csv.gz,,118531960,6b2fc04ae307390c4d2044659b91c0da314c6a20eefd4a2f13e1468ac06c874b,input_or_config,https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/game_lineups.csv.gz
+data/raw/transfermarkt/dcaribou_2021_22/players.csv.gz,,4125713,921f986c8e6ddae235783440ee01725547120473e7e92b2c232780c5c521766a,input_or_config,https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz
+data/raw/transfermarkt/dcaribou_2021_22/player_valuations.csv.gz,,5724453,9f0257021012f564b35d45aec9b99813d09b2edf3633505d21e94d1002f46ba7,input_or_config,https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/player_valuations.csv.gz
+data/raw/transfermarkt/dcaribou_2021_22/transfers.csv.gz,,1059102,21f6ded48a8e964699b3b443fe968afc2fd49fa7290224fed36007a026d10a25,input_or_config,https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/transfers.csv.gz

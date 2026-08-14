@@ -1,0 +1,23 @@
+check,observed,expected_or_threshold,passed
+clubs_with_16_games,98.0,98,True
+schedule_club_games,1568.0,1568,True
+analytic_unique_player_game,50584.0,50584,True
+relative_match_valid,50584.0,50584,True
+unique_club_game_window,1568.0,1568,True
+pre_dates_before_cutoff,1.0,1,True
+post_dates_after_cutoff,1.0,1,True
+minutes_nonnegative,50584.0,50584,True
+minutes_share_range,50584.0,50584,True
+reviewed_statsbomb_links_have_zero_dose,32.0,32,True
+nonplayers_zero_minutes,26541.0,26541,True
+performance_metrics_nonnegative,1.0,1,True
+npxg_le_xg,50584.0,50584,True
+starter_inconsistencies_documented,41.0,source exceptions,True
+nonplayer_production_documented,15.0,source exceptions,True
+roster_assignment_conflicts_resolved,10.0,informational,True
+eligible_main_players,1119.0,informational,True
+eligible_main_treated,263.0,informational,True
+treated_matching_rate,0.844106463878327,>=0.80,True
+january_transfers_flagged,484.0,informational,True
+long_injuries_flagged,405.0,informational,True
+injury_rows_relevant,14740.0,informational,True
