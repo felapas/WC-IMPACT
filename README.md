@@ -87,37 +87,6 @@ python scripts/analysis/run_placebo_2023_24.py
 
 The project uses frozen JSON-compatible configuration files under `config/`, deterministic random seeds, explicit QA gates and SHA-256 manifests. The public bundle preserves aggregate outputs so that rebuilt results can be compared against the reported values without publishing row-level third-party data.
 
-Run the repository-level QA before creating a public release:
-
-```bash
-python scripts/qa/check_public_release.py
-python -m compileall -q scripts
-```
-
-## Paper build
-
-The FAME/SBC submission source is under `reports/submission_fame2026/`.
-
-With Tectonic installed:
-
-```bash
-cd reports/submission_fame2026
-./build.sh
-```
-
-On Windows PowerShell:
-
-```powershell
-cd reports/submission_fame2026
-.\build.ps1
-```
-
-Overleaf users can upload `main.tex`, `references.bib`, `sbc-template.sty`, `sbc.bst` and the `figures/` directory.
-
-## Citation
-
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). When publishing the GitHub repository, create an immutable release such as `fame2026-v1`; if you archive that release with Zenodo, add the resulting DOI to both `CITATION.cff` and the paper's data/code availability statement.
-
 ## License and third-party material
 
 Original project code is released under the MIT License; see [`LICENSE`](LICENSE). This license does **not** relicense third-party datasets, journal/conference templates or source materials. Their own terms continue to apply. See [`DATA_SOURCES.md`](DATA_SOURCES.md).
